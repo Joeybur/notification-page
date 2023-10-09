@@ -121,19 +121,40 @@ body {
 
 .main-container__header button:hover {
   color: var(--Notification-number);
+  transition: 0.4s ease;
+  -webkit-transition: 04s ease;
+  -moz-transition: 0.4s ease;
 }
 
 .post-text-content a:hover {
   color: var(--Notification-number);
+  transition: 0.4s ease;
+  -webkit-transition: 04s ease;
+  -moz-transition: 0.4s ease;
 }
 
 .post-text-content .group:hover {
   filter: brightness(1.5);
+  transition: 0.4s ease;
+  -webkit-transition: 04s ease;
+  -moz-transition: 0.4s ease;
 }
 
 .post-text-content p:hover {
   background: var(--Light-grayish-blue-2);
+  transition: 0.4s ease;
+  -webkit-transition: 04s ease;
+  -moz-transition: 0.4s ease;
 }
+
+strong:hover {
+  color: var(--Notification-number);
+  transition: 0.4s ease;
+  -webkit-transition: 04s ease;
+  -moz-transition: 0.4s ease;
+}
+
+/* Media */
 
 @media (min-width: 900px) {
   body {
