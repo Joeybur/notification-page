@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main-container__header">
+        <h1>Notifications <span id="unread-count">3</span></h1>
+        <button class="button" id="markread" type="button">
+          Mark all as read
+        </button>
+      </div>
+
+      <section class="main-container__hero-content">
+        <div class="hero-content__post unread" id="posts">
+          <img
+            src="assets/images/avatar-mark-webber.webp"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <div class="post-text-content">
+            <span
+              ><strong>Mark Webber</strong>reacted to your recent post
+              <a class="alt-post">My first tournament today!</a
+              ><small class="red-dot"></small
+            ></span>
+            <span class="time">1m ago</span>
+          </div>
+        </div>
+
+        <div class="hero-content__post unread" id="posts">
+          <img
+            src="assets/images/avatar-angela-gray.webp"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <div class="post-text-content">
+            <div class="post-text-content">
+              <span
+                ><strong>Angela Gray</strong>followed you
+                <small class="red-dot"></small
+              ></span>
+              <span class="time">5m ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-content__post unread" id="posts">
+          <img
+            src="assets/images/avatar-jacob-thompson.webp"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <div class="post-text-content">
+            <div class="post-text-content">
+              <span
+                ><strong>Jacob Thompson</strong>has joined your group
+                <a class="group">Chess Club</a><small class="red-dot"></small
+              ></span>
+              <span class="time">1 day ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-content__post" id="posts">
+          <img
+            src="assets/images/avatar-rizky-hasanuddin.webp"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <div class="post-text-content">
+            <div class="post-text-content">
+              <span
+                ><strong>Rizky Hasanuddin</strong>sent you a private
+                message</span
+              >
+              <span class="time">5 day ago</span>
+              <p class="private">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-content__post" id="posts">
+          <img
+            src="assets/images/avatar-kimberly-smith.webp"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+
+          <div class="post-text-content">
+            <span
+              ><strong>Kimberly Smith</strong>commented on your picture</span
+            >
+            <span class="time">1 week ago</span>
+          </div>
+
+          <img
+            src="assets/images/image-chess.webp"
+            width="40px"
+            height="40px"
+            alt=""
+            class="second-img"
+          />
+        </div>
+
+        <div class="hero-content__post" id="posts">
+          <img
+            src="assets/images/avatar-nathan-peterson.webp"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <div class="post-text-content">
+            <span
+              ><strong>Nathan Peterson</strong>reacted to your recent post
+              <a class="alt-post">
+                >5 end-game strategies to increase your win rate</a
+              >
+            </span>
+
+            <span class="time">2 weeks ago</span>
+          </div>
+        </div>
+
+        <div class="hero-content__post" id="posts">
+          <img
+            src="assets/images/avatar-anna-kim.webp"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <div class="post-text-content">
+            <div class="post-text-content">
+              <span
+                ><strong>Anna Kim</strong>left the group
+                <a class="group">Chess Club</a>
+              </span>
+              <span class="time">2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
